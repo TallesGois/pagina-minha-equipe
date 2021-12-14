@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height:100vh;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:115px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin-top:110px;
+    width: 64.1vw;
+    max-width:1153.8px;
+    justify-content: flex-start;
+}
+
+.header-titulo{
+    width:50%;
+}
+
+.header-titulo> h1 {
+    min-height: 47px;
+    font-family: "PT Serif";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    color: #000000;
+}
+
+.header-conteudo {
+    width: 50%;
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+header> div> h2 {
+    max-width: 117px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+header> div> p{
+    max-width: 439px;
+    min-height: 87px;
+}
