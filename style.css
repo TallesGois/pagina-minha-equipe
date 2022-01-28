@@ -59,3 +59,70 @@ header> div> p{
     max-width: 439px;
     min-height: 87px;
 }
+
+footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #a9a9a9;
+    display: flex;
+    justify-content: center;
+}
+  
+.author {
+    font-weight: 700;
+}
+
+a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #a9a9a9;
+}
+  
+a:hover {
+    color: black;
+}
+
+@media (max-width: 991px) {
+    header {
+      flex-direction: column;
+    }
+  
+    header section {
+      width: 100%;
+    }
+  
+    main {
+      padding-left: 10px;
+    }
+  
+    main section {
+      width: 50%;
+    }
+  
+    main section:nth-child(2n + 1) {
+      margin-top: 0;
+    }
+  
+    main section:nth-child(2n) {
+      margin-top: 10%;
+    }
+  
+    .occupation {
+      font-size: 10px;
+      top: -30%;
+    }
+  
+    .name,
+    header p {
+      font-size: 14px;
+    }
+  
+    img {
+      width: 100%;
+    }
+  
+    footer p {
+      text-align: center;
+    }
+  }
